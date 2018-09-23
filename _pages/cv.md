@@ -12,7 +12,7 @@ redirect_from:
 Available in [PDF format]({{ site.url }}/files/resume_xli.pdf).
 
 # Xiaocan Li
-Los Alamos National Laboratory, T-2, MS-B283, Los Alamos, NM 87545\
+Los Alamos National Laboratory, T-2, MS-B283, Los Alamos, NM 87545,
 [xiaocanli@lanl.gov](mailto:xiaocanli.at.lanl.dot.gov), 5056677568
 
 ## Areas of Research
