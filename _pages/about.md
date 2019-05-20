@@ -9,17 +9,18 @@ redirect_from:
 ---
 I am a postdoctoral researcher working at [Los Alamos National Laboratory][LANL].
 My research interests lie in numerical studies of solar physics and astrophysics,
-especially in particle energization processes in solar flares and accretion disk
-corona. I have been using fully kinetic simulations to study particle acceleration
-mechanisms during [magnetic reconnection][reconnection],
-[collisionless shocks][fermi], and plasma turbulence. I am also working on
-energetic-particle transport equations coupled with MHD simulations in order to
-explain observations.
+especially in particle energization processes in solar flares. I have been using
+fully kinetic simulations to study particle acceleration mechanisms during
+magnetic reconnection, collisionless shocks, and plasma turbulence. I am also
+working on energetic-particle transport equations coupled with MHD simulations in
+order to explain observations. You can find more about my research at
+[**[Research]**](/portfolio).
 
 I received my Ph.D. from the [Department of Space Science][SPA] at the
 University of Alabama in Huntsville, my M.S. from [Institute of Space
 Physics & Applied Technology][ISPAT] at Peking University, and my B.S. from
 [College of Surveying and Geo-informatics][celiang] at Tongji University.
+You can find my resume at [**[CV]**](/cv).
 
 [LANL]: https://www.lanl.gov/
 [UAH]: http://www.uah.edu/

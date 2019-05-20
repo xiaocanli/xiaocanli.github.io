@@ -1,5 +1,33 @@
 title	type	url_slug	venue	date	location	talk_url	description
-Talk 1 on Relevant Topic in Your Field	Talk	talk-1	UC San Francisco, Department of Testing	2012-03-01	San Francisco, California		This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
-Tutorial 1 on Relevant Topic in Your Field	Tutorial	tutorial-1	UC-Berkeley Institute for Testing Science	2013-03-01	Berkeley CA, USA	http://exampleurl.com	This is a description of your tutorial, note the different field in type. This is a markdown files that can be all markdown-ified like any other post. Yay markdown!
-Talk 2 on Relevant Topic in Your Field	Talk	talk-2	London School of Testing	2014-02-01	London, UK	http://example2.com	This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
-Conference Proceeding talk 3 on Relevant Topic in Your Field	Conference proceedings talk	talk-3	Testing Institute of America 2014 Annual Conference	2014-03-01	Los Angeles, CA		This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+The formation of power-law energy spectrum in low-beta magnetic reconnection	Invited Talk	talk-2	Magnetic Reconnection and Particle Acceleration in Solar Flares	2019-03-19	Los Alamos, NM		
+The formation of power-law energy spectrum in 3D low-beta magnetic reconnection	Invited Talk	talk-1	The 18th Annual International Astrophysics Conference	2019-02-18	Pasadena, CA		
+Particle Acceleration during Magnetic Reconnection in Solar Flares	Invited Talk	talk-1	Dartmouth College	2018-10-23	Hanover, NH		
+Particle acceleration mechanisms during magnetic reconnection	Invited Talk	talk-2	National Space Science Center	2018-05-31	Beijing, China		
+Particle acceleration mechanisms during magnetic reconnection	Invited Talk	talk-3	Beihang University	2018-05-30	Beijing, China		
+Particle acceleration mechanisms during magnetic reconnection	Invited Talk	talk-4	Shandong University Weihai Campus	2018-05-23	Weihai, Shandong, China		
+Particle acceleration mechanisms during magnetic reconnection	Invited Talk	talk-5	Purple Mountain Observatory	2018-05-16	Nanjing, Jiangsu, China		
+The Roles of Fluid Compression and Shear in Particle Energization during Magnetic Reconnection	Invited Talk	talk-6	Particle Transport and Energization in Turbulent Plasmas	2018-04-26	Zhuhai, Guangdong, China		
+The Roles of Fluid Compression and Shear in Particle Energization during Magnetic Reconnection	Invited Talk	talk-7	The 16th Annual International Astrophysics Conference	2018-03-08	Santa Fe, NM		
+The Role of Fluid Compression in Particle Energization during Magnetic Reconnection	Invited Talk	talk-8	2017 AGU Fall Meeting	2017-12-11	New Orleans, LA		
+The Role of Fluid Compression in Particle Energization during Magnetic Reconnection	Invited Talk	talk-9	The 16th Annual International Astrophysics Conference	2017-03-06	Santa Fe, NM		
+Nonthermally Dominated Electron Acceleration during Magnetic Reconnection in a Low-beta Plasma	Invited Talk	talk-10	Plasma Energization: Exchanges between Fluid and Kinetic Scales	2015-05-05	Los Alamos, NM		
+Particle acceleration in reconnection: a view from electric current	Invited Talk	talk-11	Meso-scale Plasma Dynamics and Energetic Particles: Applications to Laboratory, Space, and Astrophysical Plasmas	2014-06-30	Los Alamos, NM		
+The formation of power-law particle energy spectrum in 3D low-beta magnetic reconnection	Poster	poster-1	2018 AGU Fall Meeting	2018-10-12	Washington, D.C.		
+Particle acceleration in compressible reconnection layer	Talk	talk-12	60th Annual Meeting of the APS Division of Plasma Physics	2018-11-05	Portland, Oregon		
+Large-scale particle acceleration by magnetic reconnection during solar flares	Poster	poster-2	2017 AGU Fall Meeting	2017-12-14	New Orleans, LA		
+The Role of Compression in Particle Energization during Magnetic Reconnection	Poster	poster-3	2017 JSI Workshop, Cosmic Accelerators: Understanding Nature's High-energy Particles and Radiation	2017-11-06	Annapolis, MD		
+Nonthermal particle acceleration in 2D and 3D nonrelativistic magnetic reconnection	Talk	talk-13	59th Annual Meeting of the APS Division of Plasma Physics	2017-10-23	Milwaukee, WI		
+The role of fluid compression in particle energization at the reconnection site during solar flares	Talk	talk-14	RHESSI 16th Workshop	2017-06-23	Boulder, CO		
+The Role of Fluid Compression in Particle Energization during Magnetic Reconnection	Poster	poster-4	2016 AGU Fall Meeting	2016-12-16	San Francisco, CA		
+Nonthermally Dominated Electron Acceleration during Magnetic Reconnection in a Low-beta Plasma	Poster	poster-5	SHINE Conference 2016	2016-07-11	Santa Fe, NM		
+Nonthermally Dominated Particle Acceleration during Magnetic Reconnection in a Low-beta Plasma	Poster	poster-6	2015 AGU Fall Meeting	2015-12-17	San Francisco, CA		
+The Role of Fluid Compression in Particle Acceleration during Magnetic Reconnection	Poster	poster-7	57th Annual Meeting of the APS Division of Plasma Physics	2015-11-18	Savannah, GA		
+Nonthermally Dominated Particle Acceleration during Magnetic Reconnection in a Low-beta Plasma	Poster	poster-8	14th RHESSI Workshop	2015-07-12	Newark, NJ		
+Nonthermally Dominated Electron Acceleration during Magnetic Reconnection in a Low-beta Plasma 	Poster	poster-9	SHINE Conference 2015	2015-07-06	Stowe, VT		
+Particle Energization during the Relaxation of a Force-free Magnetic Field	Poster	poster-10	Triennial Earth Sun-Summit meeting	2015-04-26	Indianapolis, IN		
+Nonthermally Dominated Electron Acceleration during Magnetic Reconnection in a Low-beta Plasma	Poster	poster-11	Triennial Earth Sun-Summit meeting	2015-04-26	Indianapolis, IN		
+Particle energization in a force-free/non-force-free magnetic field	Poster	poster-12	2014 AGU Fall Meeting	2014-12-16	San Francisco, CA		
+On the energy conversion and particle acceleration during magnetic reconnection	Poster	poster-13	2014 AGU Fall Meeting	2014-12-15	San Francisco, CA		
+On the energy conversion and particle acceleration during magnetic reconnection	Poster	poster-14	56th Annual Meeting of the APS Division of Plasma Physics	2014-10-29	New Orleans, LA		
+Seed population generation by time-dependent chaotic magnetic field in solar corona	Poster	poster-15	2013 AGU Fall Meeting	2013-12-10	San Francisco, CA		
+Particle acceleration and magnetic field amplification in supernova remnants shocks	Poster	poster-16	2013 LANL Student Symposium	2013-07-26	Los Alamos, NM		
