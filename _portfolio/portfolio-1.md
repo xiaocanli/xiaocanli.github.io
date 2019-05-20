@@ -23,5 +23,5 @@ While the distribution of accelerated particles integrated over the whole simula
 highly non-thermal, it is actually the superposition of a series of distributions in different
 sectors of a 2D magnetic island. Each of those distributions has only a small non-thermal
 component compared with its thermal core.
-See more details at [Li et al. 2015](2015-09-24-paper1) and
+See more details at [Li et al. 2015](/publication/2015-09-24-paper1) and
 [Li et al. 2017](/publication/2017-06-27-paper1).
