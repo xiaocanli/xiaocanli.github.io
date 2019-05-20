@@ -13,7 +13,7 @@ panel shows that the electron density increases from 1 to over 3, indicating
 that plasma is compressed in the reconnection layer. The velocity plots show
 that the flow can be compressed and sheared in the reconnection outflow region.
 Right: time evolution of electron energization terms for the run without a
-guide field (top panel) and the run with a guide field $0.5B0$ (bottom panel).
+guide field (top panel) and the run with a guide field $0.5B_0$ (bottom panel).
 The compression energization (red line) dominates the acceleration of
 high-energy particles in reconnection with a weak guide field (top right
 panel), and the compression and shear effects (blue solid line) are comparable
