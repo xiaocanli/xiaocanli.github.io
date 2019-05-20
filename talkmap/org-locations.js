@@ -15,9 +15,9 @@ var addressPoints = [
     -74.1723667
   ],
   [
-    "San Francisco, CA",
-    45.4423543,
-    -73.4373087
+    "San Francisco, California",
+    37.7792808,
+    -122.4192363
   ],
   [
     "Portland, Oregon",
@@ -40,9 +40,9 @@ var addressPoints = [
     -81.0911768
   ],
   [
-    "Pasadena, CA",
-    49.0139234,
-    -57.5986531
+    "Pasadena, California",
+    34.1476452,
+    -118.1444779
   ],
   [
     "New Orleans, LA",
