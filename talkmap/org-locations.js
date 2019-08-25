@@ -31,13 +31,13 @@ var addressPoints = [
   ],
   [
     "Beijing, China",
-    39.906217,
-    116.3912757
+    40.190632,
+    116.412144
   ],
   [
     "Minneapolis, MN",
-    44.9772995,
-    -93.2654692
+    44.9706705,
+    -93.268217735811
   ],
   [
     "Savannah, GA",
@@ -65,6 +65,11 @@ var addressPoints = [
     -72.6860186
   ],
   [
+    "Boulder, CO",
+    40.0149856,
+    -105.2705456
+  ],
+  [
     "Weihai, Shandong, China",
     37.5120997,
     122.1152599
@@ -78,11 +83,6 @@ var addressPoints = [
     "Zhuhai, Guangdong, China",
     21.9745252,
     113.931350084859
-  ],
-  [
-    "Boulder, CO",
-    40.0149856,
-    -105.2705456
   ],
   [
     "Hanover, NH",
