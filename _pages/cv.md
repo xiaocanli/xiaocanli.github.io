@@ -63,9 +63,9 @@ code VPIC to study particle acceleration during magnetic reconnection.
 
 ## Service and Professional Membership
 * Referee for ApJ, ApJL, MNRAS, JGR, GRL, PoP, Astrophysics and Space Sciences,
-Solar Physics, and Plasma Science and Technology
+Solar Physics, Plasma Science and Technology, Galaxies
+* Organizer of the 2019 workshop on "Magnetic Reconnection and Particle Acceleration in Solar Flares"
 * Session Chair for 2018 AGU Fall Meeting (sessions: SH11D and SH14A)
-* Organizer of the 2018 workshop on "Magnetic Reconnection and Particle Acceleration in Solar Flares"
 * Judge for Outstanding Student Paper Award of the AGU 2017 and 2018 Fall Meeting
 * Reviewer for NASA grant programs
 * Member of AGU and APS
