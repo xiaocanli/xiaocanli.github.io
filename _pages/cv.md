@@ -62,7 +62,7 @@ code VPIC to study particle acceleration during magnetic reconnection.
 * DPP Student Travel Grant Award for 56th Annual Meeting of APS Division of Plasma Physics, APS, 2014
 
 ## Service and Professional Membership
-* Referee for ApJ, ApJL, MNRAS, JGR, GRL, PoP, Astrophysics and Space Sciences,
+* Referee for ApJ, ApJL, ApJS, MNRAS, JGR, GRL, PoP, Astrophysics and Space Sciences,
 Solar Physics, Plasma Science and Technology, Galaxies
 * Organizer of the 2019 workshop on "Magnetic Reconnection and Particle Acceleration in Solar Flares"
 * Session Chair for 2018 AGU Fall Meeting (sessions: SH11D and SH14A)
@@ -71,7 +71,7 @@ Solar Physics, Plasma Science and Technology, Galaxies
 * Member of AGU and APS
 
 ## Computer Skills
-* Five-year experiences of using supercomputers at LANL, NERSC, and TACC.
+* Six-year experiences of using supercomputers at LANL, NERSC, and TACC.
 * Languages: C, C++, Python, and Fortran. Parallelization: MPI, OpenMP, and
 CUDA. Building tools: Make and CMake. Debugging tools: GDB, Valgrind, and Arm DDT.
 Version control: Git. I/O: HDF5.

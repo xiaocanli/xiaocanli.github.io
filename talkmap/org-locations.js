@@ -1,8 +1,8 @@
 var addressPoints = [
   [
     "Washington, D.C.",
-    38.8950092,
-    -77.0365625
+    38.8948932,
+    -77.0365529
   ],
   [
     "Indianapolis, IN",
@@ -31,8 +31,8 @@ var addressPoints = [
   ],
   [
     "Beijing, China",
-    40.190632,
-    116.412144
+    39.906217,
+    116.3912757
   ],
   [
     "Minneapolis, MN",
@@ -88,6 +88,11 @@ var addressPoints = [
     "Hanover, NH",
     43.703622,
     -72.288666
+  ],
+  [
+    "Santa Barbara, California",
+    34.4221319,
+    -119.7026673
   ],
   [
     "Milwaukee, WI",
