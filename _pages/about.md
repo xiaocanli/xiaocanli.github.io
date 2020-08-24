@@ -7,27 +7,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a postdoctoral researcher working at [Los Alamos National Laboratory][LANL].
-My research interests lie in numerical studies of solar physics and astrophysics,
-especially in particle energization processes in solar flares. I have been using
-fully kinetic simulations to study particle acceleration mechanisms during
-magnetic reconnection, collisionless shocks, and plasma turbulence. I am also
-working on energetic-particle transport equations coupled with MHD simulations in
-order to explain observations. You can find more about my research at
-[**[Research]**](/portfolio).
-
-I received my Ph.D. from the [Department of Space Science][SPA] at the
-University of Alabama in Huntsville, my M.S. from [Institute of Space
-Physics & Applied Technology][ISPAT] at Peking University, and my B.S. from
-[College of Surveying and Geo-informatics][celiang] at Tongji University.
-You can find my resume at [**[CV]**](/cv).
+I am a postdoctoral researcher working with [Yi-Hsin Liu][Yi-Hsin] at
+[Dartmouth College][Dartmouth].  My research focuses on addressing plasma
+energization and particle acceleration processes in [magnetic
+reconnection][reconnection] and [plasma turbulence][turbulence] through
+numerical simulations and theoretical analysis. I aim to explain the origin of
+the energetic particles responsible for the high-energy emission in solar
+flares and other explosive astrophysical events. I obtained my Ph.D. degree
+from the [University of Alabama in Huntsville][UAH] in 2016. Before joining Dr.
+Liu's group, I worked as a postdoc at [Los Alamos National Laboratory][LANL].
+You can find more about my research at [**[Research]**](/portfolio).
 
 [LANL]: https://www.lanl.gov/
 [UAH]: http://www.uah.edu/
-[cspar]: http://www.uah.edu/cspar
-[SPA]: http://www.uah.edu/science/departments/space-science
-[ISPAT]: http://www.space.pku.edu.cn/
-[celiang]: http://celiang.tongji.edu.cn/
+[Dartmouth]: https://home.dartmouth.edu/
+[Yi-Hsin]: https://yhliu10.wixsite.com/yhliu
 [reconnection]: http://en.wikipedia.org/wiki/Magnetic_reconnection
-[fermi]: http://en.wikipedia.org/wiki/Fermi_acceleration
 [turbulence]: http://www.scholarpedia.org/article/MHD_turbulence
