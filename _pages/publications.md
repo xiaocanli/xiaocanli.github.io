@@ -9,7 +9,7 @@ author_profile: true
 
 My [\[**Google Scholar**\]](https://scholar.google.com/citations?user=HvM9gWgAAAAJ&hl=en&oi=ao)
 and [\[**ADS**\]](https://ui.adsabs.harvard.edu/public-libraries/NxPzy3oIRbm53amvMiUZ6g).<br/>
-Below is a list of first-author papers.
+Below are selected recent papers.
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
