@@ -5,7 +5,7 @@ date: 2023-11-07 12:50:00-0400
 description: Using FFmpeg on Perlmutter@NERSC
 tags: hpc
 categories: sample-posts
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 featured: true
 ---
