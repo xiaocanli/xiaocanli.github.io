@@ -9,7 +9,9 @@ giscus_comments: true
 related_posts: false
 featured: true
 ---
-There is no `ffmpeg` module on Perlmutter anymore. The system-installed `ffmpeg` does not support some of the common codecs. One solution is below.
+Problem: There is no `ffmpeg` module on Perlmutter anymore. The system-installed `ffmpeg` does not support some of the common codecs.
+
+Solution:
 * Download the executable from ffmpeg website: https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
 * put it somewhere in the home directory, e.g., `~/local/` and then `tar xvf ffmpeg-release-amd64-static.tar.xz`
 * set the path in `~/.bashrc.ext`: `export PATH=$HOME/local/ffmpeg-6.0-amd64-static:$PATH`
