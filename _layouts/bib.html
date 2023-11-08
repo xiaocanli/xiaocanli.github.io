@@ -150,6 +150,12 @@
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}
+          {%- if entry.doi %}
+            <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          {%- endif %}
+          {%- if entry.adsurl %}
+            <a href="{{ entry.adsurl }}" class="btn btn-sm z-depth-0" role="button">ADS</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>

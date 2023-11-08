@@ -2,96 +2,124 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Xiaocan Li (李晓璨)
+    # - name: Date of Birth
+    #   value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: Mandarin Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD in Space Science
+      institution: The University of Alabama in Huntsville
+      year: 2016
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: MS in Space Physics
+      institution: Peking University
+      year: 2011
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+    - title: BS in Surveying and Mapping Engineering
+      institution: Tongji University
+      year: 2008
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Research Scientist
+      institution: Department of Physics and Astronomy, Dartmouth College
+      year: 2022 –
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: Research Associate B
+      institution: Department of Physics and Astronomy, Dartmouth College
+      year: 2020 – 2022
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Postdoctoral Research Associate
+      institution: T-2, Los Alamos National Laboratory
+      year: 2017 – 2020
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Postdoctoral Research Assistant
+      institution: CSPAR, The University of Alabama in Huntsville
+      year: 2016 – 2017
+      # description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Visiting Student
+      institution: T-2, Los Alamos National Laboratory
+      year: 2014 – 2016
+
+    - title: Graduate Research Assistant
+      institution: Department of Space Science, The University of Alabama in Huntsville
+      year: 2012 – 2016
+
+    - title: Graduate Research Assistant
+      institution: Center for Nonlinear Studies (CNLS), Los Alamos National Laboratory
+      year: 2013 – 2013
+
+    - title: Graduate Research Assistant
+      institution: Institute of Space Physics and Applied Technology, Peking University
+      year: 2009 – 2011
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    - title: <a href="https://github.com/xiaocanli/stochastic-parker">stochastic-parker</a>
+      year: 2016-now
+      description: A code solving Parker's transport equation (and its extensions) using the stochastic method
+    - title: <a href="https://github.com/xiaocanli/Post-Analysis-VPIC">Post-Analysis-VPIC</a>
       year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description: A collection of tools I have been using for analyzing <a href="https://github.com/lanl/vpic">VPIC</a> simulation data.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Postdoctoral Distinguished Performance Award Honorable Mention, Los Alamos National Laboratory
+    - year: 2013 - 2016
       items: 
-        - Max Planck Medal
+        - NASA Earth and Space Science Fellowship (NESSF)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Magnetic reconnection
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Particle acceleration mechanisms, power-law formation, particle transport, and plasma energization
+        - Turbulence generated by 3D magnetic reconnection, turbulent reconnection
+        - Reconnection rate
+        - Relativistic reconnection
+        - Reconnection-driven solar jets
+    - title: Solar flares and solar eruptions
       items:
-        - Description 1.
-        - Description 2.
+        - Large-scale particle acceleration and transport
+        - Nonthermal emissions produced by the energetic particles
+        - The origins of solar energetic particles
+        - Magnetic reconnection, termination shocks, and plasma turbulence in solar flares
+    - title: Particle acceleration and transport
+      items:
+        - Transport theory and modeling
+        - Shock acceleration
+        - Turbulence acceleration
+        - Stochastic processes
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> hiking, skiing, reading, and photography

@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - xiaocanli
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - xiaocanli/stochastic-parker
+  - xiaocanli/Post-Analysis-VPIC
+  - xiaocanli/athena_reconnection
+  - xiaocanli/vpic_reconnection_tutorial
+  - xiaocanli/quick_check_vpic
+  - xiaocanli/vpic-sorter
+  - xiaocanli/test_particle
