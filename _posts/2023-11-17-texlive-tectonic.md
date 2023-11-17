@@ -2,7 +2,7 @@
 layout: post
 title: Lightweight Tex with Tectonic
 date: 2023-11-07 08:50:00-0500
-description: Lightweight Tex with Tectonic
+description: Using Tectonic to compile Tex documents
 tags: desktop
 categories: sample-posts
 giscus_comments: false
