@@ -1,20 +1,35 @@
 {
   "basics": {
     "name": "Xiaocan Li (李晓璨)",
-    "position": "Staff Scientist",
+    "position": "Staff Scientist, T-2, Los Alamos National Laboratory",
     "image": "",
-    "email": "phyxiaolee@gmail.com",
-    "phone": "(505) 667-7568",
+    "email": "xiaocanli [at] lanl [dot] gov",
+    "phone": "+1 (505) 667 • 7568",
     "url": "https://xiaocanli.github.io",
-    "summary": "A researcher working on solar physics and space physics",
+    "summary": "Plasma physicist investigating particle acceleration, transport, and energy conversion in solar, space, and astrophysical plasmas through multi-scale kinetic, MHD, and transport simulations.",
     "location": {
       "address": "T-2, Los Alamos National Laboratory",
-      "postalCode": "NH 87545",
+      "postalCode": "NM 87545",
       "city": "Los Alamos",
       "countryCode": "US",
       "region": "New Mexico"
     },
     "profiles": [
+      {
+        "network": "GitHub",
+        "username": "xiaocanli",
+        "url": "https://github.com/xiaocanli"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "phyxiaolee",
+        "url": "https://scholar.google.com/citations?user=phyxiaolee"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0001-5278-8029",
+        "url": "https://orcid.org/0000-0001-5278-8029"
+      }
     ]
   },
   "work": [
@@ -22,49 +37,95 @@
       "name": "T-2, Los Alamos National Laboratory",
       "position": "Staff Scientist",
       "url": "https://www.t2astroplasma.info/home",
-      "startDate": "2024",
+      "startDate": "2024-09",
       "endDate": "",
-      "summary": "",
-      "highlights": []
+      "summary": "Lead research on particle acceleration and transport in space, solar, and astrophysical plasmas using multi-scale kinetic and MHD simulations.",
+      "highlights": [
+        "Develop GPU-accelerated transport solvers that bridge kinetic and global MHD calculations on LANL and DOE supercomputers.",
+        "Coordinate multi-institutional efforts that connect numerical predictions with solar observations and laboratory experiments."
+      ]
     },
     {
       "name": "Department of Physics and Astronomy, Dartmouth College",
       "position": "Research Scientist",
       "url": "https://physics.dartmouth.edu/",
-      "startDate": "2022",
-      "endDate": "2024",
-      "summary": "",
-      "highlights": []
+      "startDate": "2022-02",
+      "endDate": "2024-09",
+      "summary": "Coupled PIC, MHD, and transport simulations to interpret particle energization signatures in solar eruptions.",
+      "highlights": [
+        "Linked reconnection-driven acceleration models with X-ray and microwave observations to explain nonthermal emissions.",
+        "Mentored graduate and undergraduate students on reconnection-rate scaling, magnetotail reconnection, and simulation workflows."
+      ]
     },
     {
       "name": "Department of Physics and Astronomy, Dartmouth College",
       "position": "Research Associate B",
       "url": "https://physics.dartmouth.edu/",
-      "startDate": "2020",
-      "endDate": "2022",
-      "summary": "",
-      "highlights": []
+      "startDate": "2020-02",
+      "endDate": "2022-01",
+      "summary": "Investigated reconnection-rate reduction in high-beta plasmas and power-law formation in relativistic regimes.",
+      "highlights": [
+        "Integrated transport-solvers with MHD outputs to study solar-flare acceleration and energetic particle propagation.",
+        "Executed large-scale PIC simulations that quantified reconnection dynamics and particle energization."
+      ]
     },
     {
       "name": "T-2, Los Alamos National Laboratory",
       "position": "Postdoctoral Research Associate ",
       "url": "https://t2.lanl.gov/",
-      "startDate": "2017",
-      "endDate": "2020",
-      "summary": "",
-      "highlights": []
+      "startDate": "2017-02",
+      "endDate": "2020-02",
+      "summary": "Analyzed particle acceleration mechanisms in solar flare reconnection using VPIC simulations and transport models.",
+      "highlights": [
+        "Coupled kinetic results with MHD simulations and observations to evaluate acceleration efficiencies.",
+        "Studied drift motions, pressure anisotropy, and field amplification in reconnection and shock environments."
+      ]
     },
     {
       "name": "CSPAR, The University of Alabama in Huntsville",
       "position": "Postdoctoral Research Assistant",
       "url": "https://www.uah.edu/cspar",
-      "startDate": "2016",
-      "endDate": "2017",
-      "summary": "",
-      "highlights": []
+      "startDate": "2016-09",
+      "endDate": "2017-01",
+      "summary": "Modeled plasma-tether interactions using kinetic simulations.",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "Center for Space Plasma and Aeronomic Research, UAH",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.uah.edu/cspar",
+      "startDate": "2012-05",
+      "endDate": "2016-08",
+      "summary": "Ph.D. research on numerical simulations of particle acceleration during solar flares.",
+      "highlights": [
+        "Developed test-particle codes for chaotic magnetic fields and performed VPIC simulations of reconnection-driven acceleration.",
+        "Built Parker transport models to bridge kinetic simulations with solar observations."
+      ]
+    },
+    {
+      "name": "T-2, Los Alamos National Laboratory",
+      "position": "Visiting Student",
+      "url": "https://www.t2astroplasma.info/home",
+      "startDate": "2013-06",
+      "endDate": "2016-08",
+      "summary": "Long-term research visits focused on reconnection energization and supernova remnant shocks.",
+      "highlights": [
+        "Used VPIC to probe drift motions, shear/compression, and pressure anisotropy during reconnection.",
+        "Modeled magnetic-field amplification and cosmic-ray acceleration with coupled MHD and transport simulations."
+      ]
+    },
+    {
+      "name": "Department of Geophysics, Peking University",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.pku.edu.cn/",
+      "startDate": "2009-09",
+      "endDate": "2011-06",
+      "summary": "Modeled electron transport with Monte Carlo (Geant4) simulations during M.S. studies.",
+      "highlights": [
+      ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "The University of Alabama in Huntsville",
@@ -112,8 +173,56 @@
     }
   ],
   "certificates": [],
-  "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Plasma Physics & Space Science",
+      "level": "",
+      "keywords": [
+        "Magnetic reconnection",
+        "Collisionless shocks",
+        "Plasma turbulence",
+        "Solar flares",
+        "SEP acceleration"
+      ]
+    },
+    {
+      "name": "Computational Methods",
+      "level": "",
+      "keywords": [
+        "PIC / hybrid simulations",
+        "Global MHD modeling",
+        "Parker transport solvers",
+        "Multi-scale coupling",
+        "GPU/CPU performance tuning"
+      ]
+    },
+    {
+      "name": "Programming & Parallelism",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Fortran",
+        "Julia",
+        "MPI",
+        "OpenMP",
+        "CUDA",
+        "Kokkos",
+        "Cabana"
+      ]
+    },
+    {
+      "name": "Data & Visualization",
+      "level": "",
+      "keywords": [
+        "HDF5",
+        "FFTW3 / HeFFTe",
+        "ParaView",
+        "Python scientific stack",
+        "Profiling & debugging at scale"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "Mandarin Chinese",
@@ -138,6 +247,5 @@
       "name": "Nature Photography"
     }
   ],
-  "references": [],
-  "projects": []
+  "references": []
 }

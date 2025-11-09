@@ -7,8 +7,7 @@ first_name: Xiaocan
 middle_name:
 last_name: Li
 email: phyxiaolee@gmail.com
-contact_note: >
-  I prefer to communicate via email.
+contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Scientist working on space and solar physics
 footer_text: >
@@ -278,6 +277,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "_posts"
+    values:
+      published: false
+      search_exclude: true
 
 sass:
   style: compressed

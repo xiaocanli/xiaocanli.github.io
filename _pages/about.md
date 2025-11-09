@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 <!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. -->
 
@@ -21,10 +21,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a staff scientist in T-2 at Los Alamos National Laboratory. My research focuses on particle acceleration and transport processes in space physics, solar physics, and high-energy astrophysics. I am particularly interested in magnetic reconnection and plasma turbulence. My research primarily uses numerical simulations (particle-in-cell, MHD, and energetic-particle transport) and theoretical analysis (plasma dynamics and particle transport). I collaborate with the observation experts to explain the kinetic plasma phenomena in space plasmas and the origin of the energetic particles in solar flares and other explosive astrophysical events.
+I am a staff scientist in T-2 at Los Alamos National Laboratory, where I study how magnetized plasmas convert stored energy into energetic particles. My work spans space and solar physics and astrophysical plasmas, but the thread running through all of it is particle acceleration and transport across multiple scales.
+
+Most projects in my group blend large-scale particle-in-cell, hybrid, and MHD simulations with energetic-particle transport solvers. I enjoy building bridges between kinetic physics, reduced models, and observations—validating simulations against X-ray/radio data, translating reconnection dynamics into spacecraft signatures, and packaging tools others can reuse.
+
+I collaborate closely with observers, laboratory experimentalists, and data scientists to interpret kinetic phenomena wherever they appear. If you are interested in multi-scale modeling, particle energization, or bringing new diagnostics to plasma simulations, please reach out.
 
