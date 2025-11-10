@@ -1,0 +1,94 @@
+{% assign hero = include.hero | default: page.hero %}
+{% assign summary = include.summary | default: page.summary %}
+{% assign status = include.status | default: page.status %}
+{% assign status_note = include.status_note | default: page.status_note %}
+{% assign highlights = include.highlights | default: page.highlights %}
+{% assign resources = include.resources | default: page.resources %}
+{% assign publications = include.featured_publications | default: page.featured_publications %}
+
+<div class="project-hero mb-4">
+  <div class="row align-items-center">
+    {% if hero.image %}
+      <div class="col-md-5 mb-3 mb-md-0">
+        {%
+          include figure.liquid
+          path=hero.image
+          class="img-fluid rounded z-depth-1"
+          alt=hero.alt
+        %}
+        {% if hero.caption %}
+          <p class="caption small text-muted mt-2">{{ hero.caption | markdownify | strip }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+    <div class="col">
+      {% if status %}
+        {% assign badge_class = "badge-success" %}
+        {% if status == "archived" %}
+          {% assign badge_class = "badge-secondary" %}
+        {% elsif status == "incubating" %}
+          {% assign badge_class = "badge-warning" %}
+        {% endif %}
+        <span class="badge {{ badge_class }} text-uppercase mb-2">{{ status }}</span>
+      {% endif %}
+      {% if summary %}
+        <div class="project-summary">{{ summary | markdownify }}</div>
+      {% endif %}
+      {% if status_note %}
+        <p class="small text-muted mb-0">{{ status_note }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% if highlights %}
+### What’s happening
+
+<ul>
+  {% for highlight in highlights %}
+    <li>
+      {% if highlight.title %}<strong>{{ highlight.title }}</strong>{% endif %}
+      {% if highlight.detail %} — {{ highlight.detail }}{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if resources %}
+### Resources
+
+<div class="mb-4">
+  {% for resource in resources %}
+    <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="{{ resource.url }}" {% if resource.external %}target="_blank" rel="noopener"{% endif %}>
+      {{ resource.label }}
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if publications %}
+### Featured publications
+
+<ul>
+  {% for pub in publications %}
+    <li>
+      {% if pub.title %}<strong>{{ pub.title }}</strong>{% endif %}
+      {% if pub.authors or pub.first_author %}
+        <br>
+        <span class="text-muted">
+          {% if pub.authors %}{{ pub.authors }}{% elsif pub.first_author %}{{ pub.first_author }} et al.{% endif %}
+        </span>
+      {% endif %}
+      {% if pub.venue or pub.year %}
+        <span class="text-muted">
+          {% if pub.venue %} — {{ pub.venue }}{% endif %}
+          {% if pub.year %} ({{ pub.year }}){% endif %}
+        </span>
+      {% endif %}
+      {% if pub.url %}
+        — <a href="{{ pub.url }}" {% if pub.external %}target="_blank" rel="noopener"{% endif %}>read</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}

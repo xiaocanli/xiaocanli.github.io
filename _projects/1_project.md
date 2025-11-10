@@ -1,28 +1,67 @@
 ---
 layout: page
 short_title: Particle Acceleration
-title: Particle Acceleration and Energy Conversion
-# <!-- description: mechanisms and power-law formation -->
+title: Acceleration Mechanisms
+description: Large-scale kinetic simulations that explore different acceleration mechanisms.
 img: assets/img/test_particle.png
 importance: 1
-category: reconnection
+category: energetic
+status: active
+updated: 2025-01-15
+summary: >
+  We run trillion-particle VPIC simulations alongside many diagnostics and analysis tools to quantify how particles are accelerated by magnetic reconnection, shocks, and turbulence. Our goal is to incorporate these results into  transport solvers to predict energetic particle fluxes in solar and astrophysical environments.
+hero:
+  image: assets/img/ptl-acc.png
+  alt: Visualization of energetic-particle transport in reconnection
+  caption: >
+    Self-generated turbulence can enhance particle transport and acceleration in 3D reconnection. Simulations use [VPIC](https://github.com/lanl/vpic) with diagnostics from [Post-Analysis-VPIC](https://github.com/xiaocanli/Post-Analysis-VPIC).
+highlights:
+  - title: Exascale VPIC runs
+    detail: >
+      Launching trillion-particle GPU campaigns to study how reconnection-generated turbulence impacts particle acceleration and transport.
+  - title: Transport model handoff
+    detail: >
+      Feeding reduced acceleration rates and diffusion coefficients into transport solvers to predict energetic particle fluxes.
+  - title: Observatory alignment
+    detail: >
+      Comparing simulation results with in-site measurements from Parker Solar Probe, Solar Orbiter, and MMS to validate acceleration mechanisms.
+  - title: AI-driven analysis
+    detail: >
+      Developing machine-learning tools to identify acceleration sites and classify particle trajectories in large datasets.
+resources:
+  - label: VPIC code
+    url: https://github.com/lanl/vpic-kokkos
+    external: true
+  - label: HybridVPIC code
+    url: https://github.com/lanl/vpic-kokkos/tree/hybridVPIC-K-devel
+    external: true
+  - label: Post-Analysis-VPIC toolkit
+    url: https://github.com/xiaocanli/Post-Analysis-VPIC
+    external: true
+  - label: VPIC Quick Check
+    url: https://github.com/xiaocanli/quick_check_vpic
+    external: true
+featured_publications:
+  - title: Power-law acceleration in nonrelativistic reconnection
+    first_author: X. Li
+    venue: PoP
+    year: 2021
+    url: https://ui.adsabs.harvard.edu/abs/2021PhPl...28e2905L/abstract
+    external: true
+  - title: 3D reconnection and electron power laws
+    first_author: X. Li
+    venue: ApJ
+    year: 2019
+    url: https://ui.adsabs.harvard.edu/abs/2019ApJ...884..118L
+    external: true
+  - title: Acceleration during low-β reconnection
+    authors: X. Li
+    venue: ApJ
+    year: 2017
+    url: https://ui.adsabs.harvard.edu/abs/2017ApJ...843...21L/abstract
+    external: true
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ptl-acc.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Self-generated turbulence can enhance particle transport and acceleration in 3D magnetic reconnection. The simulations were performed using the <a href="https://github.com/lanl/vpic">VPIC</a> particle-in-cell code and analyzed using the open-source <a href="https://github.com/xiaocanli/Post-Analysis-VPIC">Post-Analysis-VPIC</a> code. {% cite 2019ApJ...884..118L %}
-</div>
+{% include project_overview.liquid %}
 
-This project studies particle acceleration and transport in nonrelativistic magnetic reconnection using numerical simulations (particle-in-cell) and particle transport theories. Current research topics include
-* particle acceleration mechanisms in reconnection
-* particle transport in the self-generated turbulence in 3D reconnection
-* the formation of power-law energy spectra in reconnection
-
-## Publications
-<div class="publications">
-{% bibliography -f ref -q @*[projects ~= reconnection:nonrel]* %}
-</div>
+If you’d like to benchmark your observations and experimental data against our simulations results, please [reach out](mailto:{{ site.email | encode_email }}); we routinely share reduced data products and analysis notebooks.

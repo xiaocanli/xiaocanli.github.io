@@ -1,40 +1,57 @@
 ---
 layout: page
 short_title: Solar Flares
-title: Particle Acceleration and Transport in Solar Flares
-<!-- description: large-scale particle acceleration and transport -->
+title: Solar Flares
+description: Multi-scale modeling that connects simulations and solar flare X-ray/radio observations.
 img: assets/img/nrho_jz_s.png
 importance: 1
-category: solar
+category: energetic
+status: active
+updated: 2025-01-12
+summary: >
+  We integrate kinetic simulations, global MHD simulations, and energetic-particle transport solvers to explain how solar flares accelerate electrons/ions and how those populations light up hard X-ray and microwave observables.
+hero:
+  image: assets/img/3d_dists_flare.jpg
+  alt: Modeling electron acceleration 3D flare simulations
+  caption: >
+    Three-dimensional volume rending of the spatially dependent electron distributions (Li et al. 2025).
+highlights:
+  - title: Integrated flare framework
+    detail: Coupling reconnection-layer kinetics, termination shocks, and large-scale transport into a single pipeline that spans <1 m to >10^8 m.
+  - title: GPU-accelerated modeling
+    detail: Leveraging GPU-accelerated energetic particle solvers to efficiently explore flare acceleration and transport.
+  - title: Synthetic observables
+    detail: Generating hard X-ray and microwave emission maps directly from modeled electron distributions for comparison with RHESSI, EOVSA, and FOXSI.
+  - title: SEP handoff
+    detail: Feeding flare-accelerated spectra into eruption-scale transport models used in the companion SEPs project.
+# resources:
+#   - label: Flare transport model (PDF)
+#     url: /assets/pdf/Li2022Modeling.pdf
+#   - label: Magnetic bottle observations
+#     url: /assets/pdf/Chen_2024_ApJ_971_85.pdf
+#   - label: Compression acceleration study
+#     url: /assets/pdf/Murtas_2024_ApJ_974_28.pdf
+featured_publications:
+  - title: Energy conversion and electron acceleration in 3D flares
+    first_author: X. Li
+    venue: ApJ
+    year: 2025
+    url: https://ui.adsabs.harvard.edu/abs/2025ApJ...991..202L
+    external: true
+  - title: Modeling Electron Acceleration and Transport in the Early Impulsive Phase (2017 Sep 10)
+    first_author: X. Li
+    venue: ApJ
+    year: 2022
+    url: https://ui.adsabs.harvard.edu/abs/2022ApJ...932...92L
+    external: true
+  - title: Compression Acceleration of Protons and Heavier Ions
+    authors: G. Murtas, X. Li, & F. Guo
+    venue: ApJ
+    year: 2024
+    url: https://ui.adsabs.harvard.edu/abs/2024ApJ...974...28M
+    external: true
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sep10th_modeling.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Modeling Electron Acceleration and Transport in the Early Impulsive Phase of the 2017 September 10th Solar Flare. Two cases with different Lundquist numbers are shown here. {% cite 2022ApJ...932...92L %}
-</div>
+{% include project_overview.liquid %}
 
-Solar flares are among the most remarkable phenomenon of energy release and particle acceleration in our solar system. A large amount of magnetic energy in the solar corona can be released and converted into non-thermal particles within a few minutes. These high-energy particles produce impulsive non-thermal emissions that are commonly observed, and they can be released into interplanetary space and produce impulsive solar energetic particle events. The non-thermal emissions provide critical diagnostics of the non-thermal particles. Modeling particle acceleration during solar flares is particularly challenging due to the enormous scale separation (kinetic scales < m and global scales >1E8 m) in solar flares.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/framework.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A framework to bridge simulations and observations.
-</div>
-
-We have been building a framework for studying particle acceleration during solar flares. Besides the [kinetic studies](/projects/1_project/), we are actively working on
-* building a numerical model solving the energetic particle transport equations
-* studying electron acceleration in the whole flare region (e.g., reconnection and termination shocks)
-* producing hard X-ray and microwave emissions from the MHD simulations and the energetic electron maps generated from the model and comparing them with the flare observations
-* studying the large-scale transport of energetic electrons in the whole solar eruption regions ([SEPs project](/projects/5_project/))
-
-## Publications
-<div class="publications">
-{% bibliography -f ref -q @*[projects ~= flare]* %}
-</div>
+This effort ties directly into the [Solar Energetic Particles project](/projects/5_project/); reach out if you want to test diagnostics, add observational constraints, or explore joint modeling runs.

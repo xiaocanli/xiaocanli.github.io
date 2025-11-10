@@ -2,27 +2,48 @@
 layout: page
 short_title: SEPs
 title: Solar Energetic Particles
-<!-- description: the origins and seed populations -->
-img: assets/img/flare_sep.png
+description: Studying the origins and transport of solar energetic particles (SEPs) from flares and CMEs.
+img: assets/img/schematic3.png
 importance: 2
-category: solar
+category: energetic
+status: active
+updated: 2025-01-12
+summary: >
+  We quantify how flare reconnection, termination shocks, and CME-driven structures supply seed ions that become SEPs, then couple those spectra to large-scale transport models that predict what spacecraft actually see.
+hero:
+  image: assets/img/proton_maps.jpg
+  alt: Proton distribution maps
+  caption: >
+    Proton distribution maps in different energy bands, where the thick black lines indicate the CME-driven shock at the time of the snapshots (Li et al. 2025).
+highlights:
+  - title: Multi-physics pipeline
+    detail: Linking local PIC/hybrid simulations, ARMS MHD outputs, and Parker transport solvers to follow protons and heavy ions from acceleration to heliosphere.
+  - title: Seed-population diagnostics
+    detail: Studying composition signatures and charge states to determine when flares dominate over CME shocks.
+  - title: Operational hooks
+    detail: Delivering reduced models that feed into space-weather prototype forecasts for SEP onset and anisotropy.
+# resources:
+#   - label: Variable ion composition study
+#     url: /assets/pdf/Guo2022Variable.pdf
+#   - label: Compression acceleration results
+#     url: /assets/pdf/Murtas_2024_ApJ_974_28.pdf
+#   - label: Heavy-ion heating in turbulence
+#     url: /assets/pdf/Fu2020Heating.pdf
+featured_publications:
+  - title: Modeling Particle Acceleration and Release from Solar Eruptions
+    first_author: X. Li
+    venue: ApJ
+    year: 2025
+    url: https://ui.adsabs.harvard.edu/abs/2025ApJ...985..118L
+    external: true
+  - title: Variable Ion Compositions of SEP Events
+    first_author: F. Guo
+    venue: ApJ
+    year: 2022
+    url: https://ui.adsabs.harvard.edu/abs/2022ApJ...924...22G
+    external: true
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/schematic3.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Schematics of particle acceleration in the solar flare region and transport in the solar eruption region. Left: A zoom-in diagram of a flare region filled with magnetic islands (large black circles) or turbulent fluctuations (blue circles). The accelerated particles (orange) propagate to rest of the eruption region. Right: An illustration of the global eruption region. The solid black curves represent the magnetic field lines and the orange shades indicate the regions with accelerated particles. Particles accelerated in the reconnection region fill post-flare arcade and ejected flux ropes. They get released along open field lines (facilitated by interchange reconnection) and propagate in the CME front region and heliosphere.
-</div>
+{% include project_overview.liquid %}
 
-The primary objective of this project is to understand the contribution of solar flares to seed particle processes of solar energetic particles (SEPs), including protons and heavy ions in solar flares and their release and transport processes in the solar eruption region. We are actively working on
-* proton and heavy-ion acceleration in local reconnection layers using kinetic simulations (full PIC or hybrid)
-* ion acceleration and transport in the flare reconnection region using 3D MHD + transport modelings
-* ion acceleration and transport in the large-scale solar eruption regions modeled by the state-of-the-art 3D ARMS MHD simulations
-
-## Publications
-<div class="publications">
-{% bibliography -f ref -q @*[projects ~= SEPs]* %}
-</div>
+We regularly coordinate with mission teams (PSP, Solar Orbiter, GOES) to validate these models. Let me know if you need custom seed-population inputs or transport diagnostics for your analyses.

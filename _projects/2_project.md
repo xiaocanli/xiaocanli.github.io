@@ -2,27 +2,48 @@
 layout: page
 short_title: Reconnection Rate
 title: Reconnection Rate Model
-<!-- description: modeling reconnection rate -->
+description: Analytical and PIC-informed reconnection rate scaling model in kinetic and MHD systems.
 img: assets/img/xline.png
-importance: 2
-category: reconnection
+importance: 8
+category: recon_turbulence
+status: active
+status_note:
+summary: >
+  We pair VPIC, MHD simulations, and reduced theory to understand how plasma beta, guide fields, and drift instabilities affect the canonical reconnection rate.
+hero:
+  image: assets/img/xline_l.png
+  alt: Reconnection rate model visualization
+  caption: >
+    Reconnection rate models with thermal corrections built from VPIC benchmarks and analytic models (Li et al., 2021).
+highlights:
+  - title: Thermal corrections quantified
+    detail: Determined how plasma beta modifies the normalized rate in symmetric reconnection.
+  - title: Fast MHD reconnection
+    detail: Explore how two-fluid and kinetic effects enable fast reconnection in MHD-scale systems.
+  # - title: Tooling reuse
+  #   detail: Delivered notebooks that let mission teams plug in upstream parameters and estimate rate ceilings without rerunning full PIC.
+resources:
+  - label: VPIC code
+    url: https://github.com/lanl/vpic-kokkos
+    external: true
+  - label: VPIC Quick Check
+    url: https://github.com/xiaocanli/quick_check_vpic
+    external: true
+featured_publications:
+  - title: Fast Reconnection Rate with Thermal Corrections
+    authors: X. Li & Y.-H. Liu
+    venue: ApJ
+    year: 2021
+    url: https://ui.adsabs.harvard.edu/abs/2021ApJ...912..152L
+    external: true
+  - title: Spreading of Magnetic Reconnection X-lines
+    authors: S.-C. Lin, Y.-H. Liu, & X. Li
+    venue: JGR
+    year: 2025
+    url: https://ui.adsabs.harvard.edu/abs/2025JGRA..13033494L/abstract
+    external: true
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/xline_l.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Reconnection rate model with thermal corrections. {% cite 2021ApJ...912..152L %}
-</div>
+{% include project_overview.liquid %}
 
-This project studies the model of reconnection rate and its implications for energy conversion and particle acceleration in reconnection using particle-in-cell simulations and analytical models. Current research topics include
-* the dependence of reconnection rate with plasma parameters (e.g., plasma beta)
-* the roles of reconnection rate in the formation of power-law energy spectrum
-* turbulent magnetic reconnection
-
-## Publications
-<div class="publications">
-{% bibliography -f ref -q @*[projects ~= reconnection:rate]* %}
-</div>
+<!-- Although I am no longer actively working on reconnection rate modeling, the results from this project remain available for reference, and I am still collaborating with colleagues who are working on related topics. -->
