@@ -13,7 +13,7 @@ The list below highlights recent papers that capture the main directions of my g
 For the full publication record (including conference papers and collaborative works) please visit:
 
 - [Google Scholar](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en)
-- [NASA ADS](https://ui.adsabs.harvard.edu/search/q=author%3A%22{{ site.last_name | default: 'Li' }}%2C%20{{ site.first_name | default: 'Xiaocan' }}%22)
+- [NASA ADS](https://ui.adsabs.harvard.edu/public-libraries/NxPzy3oIRbm53amvMiUZ6g)
 
 ---
 
